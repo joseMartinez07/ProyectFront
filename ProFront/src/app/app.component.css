@@ -1,0 +1,81 @@
+.div-head{
+    background-color: yellow;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.div_menu {
+    position: absolute;
+    top: 40px; /* Ajusta la posición vertical según tus necesidades */
+    left: 0;
+    width: 100%;
+    background: #00001a;
+    display: none; /* Ocultar el menú por defecto */
+}
+
+.div_menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.div_menu li {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.div_menu a {
+    color: #f9f9fe;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+}
+
+.div_menu a:hover {
+    background-color: #333; /* Cambia el color de fondo al pasar el ratón sobre el enlace */
+}
+
+/* Asegúrate de que el menú se muestre al pasar el ratón sobre .div-head */
+.div-head:hover .div_menu {
+    display: block;
+}
+
+
+
+
+p {
+    color:#00001a;
+    font-family: 'Inter', sans-serif;
+    right: 140px;
+    width: 300px;
+    padding: 10px;
+}
+
+.div-news{
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    color: #f2b870;
+    right: 140px;
+    width: 300px;
+    padding: 10px;
+    background: #00001a;
+    
+}
+
+#new-one{
+    color:#f9f9fe;
+}
+
+.div-news h4{
+    margin: 10px; /* Elimina los márgenes predeterminados */
+    margin-bottom: 5px;
+}
+
+.div-news h1 {
+    margin-bottom: 5px; /* Ajusta el espacio entre h1 y h4 según tus necesidades */
+    margin-left: 10px;
+}
+.div-news p{
+    margin-top: 5px;
+}
