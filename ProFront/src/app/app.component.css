@@ -7,8 +7,6 @@
     font-family: 'Inter', sans-serif;
     background-color:white;
     margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
 .div_menu {
@@ -30,18 +28,13 @@
     color: #f35c51;
 }
 
-/*---------------------------------------------------------*/
 
-
-/*--------------------------------------------------------*/
 
 .container-div{
-    border: 1px solid red;
     display: flex;
 }
 
 .container-colum{
-    border: 1px solid red;
     font-size: 21px;
     font-weight: bold;
     padding: 0%;
@@ -49,7 +42,6 @@
 }
 
 .container-double {
-    border: 1px solid red;
     width: 67%;
 }
 
@@ -69,7 +61,6 @@
     margin-right: 1%;
     color: #f2b870;
     background: #00001a;
-    border: 1px solid red;
     padding: 2%;
     width: 33%;
 }
@@ -78,11 +69,11 @@ p {
     color:#00001a;
     font-family: 'Inter', sans-serif;
     right: 140px;
-    width: 300px;
+    width: 390px;
 }
 
 .container-one > .div-new-t {
-    padding-bottom: 10px;
+    padding-bottom: 35px;
     margin-bottom: 10px;
     position: relative; 
 }
@@ -114,7 +105,7 @@ p {
   }
 
 .div-P-booton button:hover {
-    background-color: #f35c51; /* Cambia el color de fondo al pasar sobre el botón */
+    background-color: #f35c51;
     color: white;
 }
 
@@ -125,10 +116,54 @@ p {
 
 #new-one{
     font-size: 17px;
-    color:#f9f9fe;
+    color:#f0f1f6;
+}
+#new-one:hover{
+    font-size: 17px;
+    color:#f2b870;
 }
 
 #new-one-p{
+
     font-size: 12px;
     color:#87879e;
+}
+.container-colum {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container-colum-img {
+    width: 50%;
+}
+
+.container-colum img {
+    width: 95%;
+}
+
+.container-colum-text {
+    width: 50%;
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+.container-colum-text h1 {
+    margin-bottom: -5%;
+    color: #c9c8cf;
+}
+
+.container-colum-text h4 {
+    margin-bottom: -2%;
+    color: #1a162e;
+}
+
+.container-colum-text h4:hover {
+    margin-bottom: -2%;
+    color:#f35c51;
+}
+
+.container-colum-text p {
+    width: 50%;
+    color: #9b989f;
 }
