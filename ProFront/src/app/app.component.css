@@ -167,3 +167,26 @@ p {
     width: 50%;
     color: #9b989f;
 }
+
+/*--------movil--------------------*/
+@media only screen and (max-width: 375px) {
+    .container-double {
+        width: 100%;
+    }
+
+    .container-double img {
+        width: 100%;
+    }
+
+    .container-one {
+        width: 100%;
+        padding: 2%;
+    }
+
+    p {
+        width: 100%;
+        right: 0;
+    }
+
+    /* Ajustes adicionales según sea necesario */
+}
