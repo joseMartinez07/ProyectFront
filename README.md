@@ -1,0 +1,2 @@
+# Prueba técnica 
+En esta prueba técnica se implementa el desarrollo de un home para un sitio web el cual se realiza por medio del framework de ingeniería Angular, en esta prueba se realiza la etapa de escritorio, el servidor que se utilizara el 4200 el cual se puede iniciar por medio del comando “ng serve -o ”, para el uso de estes comando se debe en un primer paso estar ubicado en la carpeta “…\ProFront” esto para garantizar el correcto funcionamiento del servidor.
